@@ -47,8 +47,8 @@ PRODUCT_PACKAGES += \
     Torch
 
 PRODUCT_PACKAGES += \
-    libxlog
-	libmtk_symbols \
+    libxlog \
+    libmtk_symbols
 
 # Lights
 PRODUCT_PACKAGES += \
