@@ -24,7 +24,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/huawei/holly/device.mk)
-$(call inherit-product, vendor/huawei/holly/holly-vendor.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := holly
