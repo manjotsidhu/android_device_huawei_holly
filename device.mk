@@ -151,8 +151,7 @@ PRODUCT_PACKAGES += \
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio \
-    FMRadioGoogle \
-    FmRadioTrampoline2 \
+    libfmjni
 
 # GPS
 PRODUCT_COPY_FILES += \
