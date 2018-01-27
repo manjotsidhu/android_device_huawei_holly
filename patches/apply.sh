@@ -28,12 +28,6 @@
  cd opt/telephony
  patch -p1 < ../../../device/huawei/holly/patches/frameworks_opt_telephony.patch
  cd ../../..
- cd external/icu
- patch -p1 < ../../device/huawei/holly/patches/external_icu.patch
- cd ..
- cd wpa_supplicant_8
- patch -p1 < ../../device/huawei/holly/patches/wpa_supplicant_8.patch
- cd ../..
  cd packages/apps/FMRadio
  patch -p1 < ../../../device/huawei/holly/patches/packages_apps_FMRadio.patch
  cd ../../..
