@@ -17,7 +17,10 @@
  patch -p1 < ../../device/huawei/holly/patches/system_vold.patch
  cd ../..
  cd frameworks/av
- patch -p1 < ../../device/huawei/holly/patches/frameworks_av.patch
+ patch -p1 < ../../device/huawei/holly/patches/fw_av1.patch
+ patch -p1 < ../../device/huawei/holly/patches/fw_av2.patch
+ patch -p1 < ../../device/huawei/holly/patches/fw_av3.patch
+ patch -p1 < ../../device/huawei/holly/patches/fw_av4.patch
  cd ..
  cd base
  patch -p1 < ../../device/huawei/holly/patches/frameworks_base.patch
